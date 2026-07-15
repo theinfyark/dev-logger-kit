@@ -1,6 +1,6 @@
 {
   "name": "dev-logger-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Beautiful colored Node.js logger with levels, request IDs, execution time, file names, and stack traces.",
   "type": "module",
   "main": "./src/index.js",
