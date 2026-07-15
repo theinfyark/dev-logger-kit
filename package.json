@@ -1,0 +1,42 @@
+{
+  "name": "dev-logger-kit",
+  "version": "1.0.0",
+  "description": "Beautiful colored Node.js logger with levels, request IDs, execution time, file names, and stack traces.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/logger.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "console",
+    "debug",
+    "colored",
+    "request-id",
+    "stack-trace",
+    "devtools"
+  ],
+  "author": "anilachary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theinfyark/dev-logger-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theinfyark/dev-logger-kit/issues"
+  },
+  "homepage": "https://github.com/theinfyark/dev-logger-kit#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
